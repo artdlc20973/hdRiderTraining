@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleyway&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2022/2022-cvo-street-glide/story/2022-cvo-street-glide-the-ride-media-card.jpg?impolicy=myresize&rw=800')no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3em;
+}
+
+.logo {
+  color: #b0ff1e;
+  font-size: 1.6em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #b0ff1e;
+  font-size: 1.1em;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+
+.nav li a:hover {
+  color: #ff9742;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 225px auto;
+}
+
+h1 {
+  color: #b0ff1e;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+p {
+  color: #ff974249;
+  margin: 1.2em 4em;
+  padding-bottom: 1.4em;
+  line-height: 1.6;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  cursor: pointer;
+}
+
+p:hover {
+  color: #ff9742;
+}
+
+button {
+  background: #b0ff1e4f;
+  padding: 12px 45px;
+  border: none;
+  font-size: 1.6em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: #fff;
+  transition: all .5s ease-in-out;
+}
+
+button:hover {
+  background: #ff97424b;
+  transform: translateY(9px);
+  border-radius: 25px;
+  letter-spacing: 5px;
+}
